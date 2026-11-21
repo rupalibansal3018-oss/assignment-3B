@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple JS Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 520px;
+      margin: 40px auto;
+      padding: 0 16px;
+    }
+    button {
+      padding: 10px 16px;
+      font-size: 15px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .result-box {
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 14px;
+      margin-top: 18px;
+      background-color: #fafafa;
+    }
+    .result-box p {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Simple JavaScript Calculator</h2>
+  <p>Click the button below to enter two numbers using <code>prompt()</code>.</p>
+
+  <button id="calcBtn">Start Calculator</button>
+
+  <div class="result-box" id="output">
+    <p>No calculation performed yet.</p>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
